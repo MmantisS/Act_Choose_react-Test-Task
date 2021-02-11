@@ -1,0 +1,15 @@
+setBackground(chapter_a_back)
+narrator "The City is gone. You see a metallic complex of ancient stone, green-bronze matter, luminous pathways, and deep wells of Vex brine."
++"The Traveler's remains have been integrated into the network." 
+"Suddenly you perceive an infinity of Human minds living within the network."
++"Some exist in familiar circumstances."
++"Others experience pain, pleasure, or madness beyond the ability to imagine."
+"You understand that their limitless suffering, salvation, insanity is an incidental byproduct of a greater work."
+Visited()
+choice ""
+{
+	"Keep looking"
+		LoadChapter(chapter_l)
+	"Move deeper into the tower"
+		LoadChapter(chapter_b)
+}

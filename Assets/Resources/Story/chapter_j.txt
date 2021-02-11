@@ -1,0 +1,16 @@
+narrator "When you killed Riven, she granted your wish to see the city made safe. "
+"But as all wishgranters do, she perverted that wish, opening the Dreaming City to Dûl Incaru. "
+"When you defeated Dûl Incaru in turn, I reset the entire Dreaming City to keep her permanently occupied battling you. "
+"You must use these loops to find a way to permanently destroy her."
+narrator "Medusa's body falls silent in your arms."
+IncreaseLL(10)
+Visited()
+choice ""
+{
+	"Ask for clarification"
+		LoadChapter(chapter_g)
+	"Lay Medusa to rest"
+		LoadChapter(chapter_k)
+	"Refuse the metaphor of Medusa's body and scour the crashed AI for raw information"
+		LoadChapter(chapter_l)
+}

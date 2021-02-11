@@ -1,0 +1,8 @@
+setBackground(chapter_k_back)
+narrator "You bring Medusa before Rahool." 
+Rahool "Ah,another battle trophy?"
+"Pre-Collapse, post-Foreboding, a covert intelligence designed to watch over a high-risk colony mission. "
+"Allow me to decrypt her for you." 
+narrator "He issues you several tokens, a rare-quality fusion rifle, a shader, and a letter."
+"The letter reads: Achieve Light Level 999 and defeat Dûl Incaru in a one-person fireteam to unlock the true ending of the Dreaming City."
+Visited()

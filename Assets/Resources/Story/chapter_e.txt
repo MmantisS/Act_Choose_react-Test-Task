@@ -1,0 +1,14 @@
+setBackground(chapter_e_back)
+narrator "Eris Morn waits for you on the hangar floor."
+"She wears Hiveskin leathers and a thick sweatband over her eyes."
+"As you approach, she dribbles a soccer ball with astounding skill."
+"After a brutal game, you defeat her 10–9."
+"She falls over, sweating and laughing, much more cheerful than you expect of her."
+Eris "I can always count on you to win"
+IncreaseLL(10)
+Visited()
+choice ""
+{
+	"Go back"
+	LoadChapter(chapter_b)
+}

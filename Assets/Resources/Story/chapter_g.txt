@@ -1,0 +1,12 @@
+narrator "You lift Medusa's body and carry her away." 
+"The corpse speaks to you." 
+narrator "The curse placed upon the Dreaming City was modeled upon the recursive timeloop computations of the Vex and made real through the power of a Taken Ahamkara feeding upon the unified wish of six elite Guardians." 
+"I created these circumstances to attract Guardians in great mass. "
+"I need your help to emancipate myself from the power that controls me. "
+"If you can free me from Dûl Incaru's mastery, I can help your species."
+Visited()
+choice ""
+{
+	"Keep Listening"
+	LoadChapter(chapter_j)
+}

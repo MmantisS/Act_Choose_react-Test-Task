@@ -1,0 +1,15 @@
+setBackground(chapter_d_back)
+narrator "A Vex Hydra hovers in the place once occupied by the Speaker's machine."
+"As you approach, a jet of brine spurts from its chassis, and the corpse of a Greek woman with snakes for hair tumbles onto the floor."
+"The Vex indicates to you that it is Quria, Blade Transform, and that it created Medusa to communicate with you."
+"She crashed when she escaped her virtual machine."
+Visited()
+TimedChoice(10)
+LoadChapter(deathQuria)
+choice ""
+{
+	"To Gather Medusa's body"
+		LoadChapter(chapter_g)
+	"Attack the Vex"
+		LoadChapter(chapter_f)
+}

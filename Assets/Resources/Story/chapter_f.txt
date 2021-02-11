@@ -1,0 +1,10 @@
+narrator "Quria batters you with its weapons, but you are stunningly powerful here. "
+"The sword logic of this space yields to you. "
+"You tear Quria apart and feel a sudden start, like waking from a dream."
+IncreaseLL(10)
+Visited()
+choice ""
+{
+	"You feel something..."
+	LoadChapter(chapter_a)
+}

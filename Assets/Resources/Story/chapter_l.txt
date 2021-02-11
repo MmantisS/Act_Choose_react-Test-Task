@@ -1,0 +1,8 @@
+narrator "The Vex compromise your Ghost."
+"Your body releases itself into a pool of saline and slime, and your Ghost delivers your soul to the Axis Minds."
+Visited()
+choice ""
+{
+	"You feel something..."
+	LoadChapter(chapter_a)
+}

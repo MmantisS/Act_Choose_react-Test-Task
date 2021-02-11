@@ -1,0 +1,15 @@
+setBackground(Start)
+narrator "You find Banshee-44, Kadi 55-30, Master Rahool, Tess Everis, Benedict 99-40, Suraya Hawthorne, Executor Hideo, Amanda Holliday, Arach Jalaal, and Cayde-6 in their usual places." 
+"Cayde seems subdued."
+"You see unusual light coming from what was once the Speaker's Chamber." 
+"A throaty voice calls you into the Hangar to play soccer."
+Visited()
+choice ""
+{
+	"Speak to Cayde"
+		LoadChapter(chapter_c)
+	"Investigate the Speaker's Chamber"
+		LoadChapter(chapter_d)
+	"Play Soccer"
+		LoadChapter(chapter_e)
+}

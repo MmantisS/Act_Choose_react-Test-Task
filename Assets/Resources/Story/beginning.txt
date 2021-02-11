@@ -1,0 +1,11 @@
+narrator "You are standing in the courtyard of the Tower." 
+"You are without armor or weapon, and your senses seem more vivid than usual."
+"Under your tongue is the taste of salt."
+Visited()
+choice ""
+{
+	"Look down into the Last City"
+		LoadChapter(chapter_a)
+	"Move Deeper into the Tower"
+		LoadChapter(chapter_b)
+}

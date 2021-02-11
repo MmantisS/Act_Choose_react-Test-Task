@@ -1,0 +1,14 @@
+setBackground(chapter_c_back)
+Cayde "Cayde deals out a countably infinite number of cards, but runs out before he can give all his players a full hand."
+narrator "He sighs and scuffs his feet on the floor." 
+Cayde "If I'm here,"
+"I guess they figure I'll never do anything new or confusing again."
++"They got enough on Nessus to approximate me, and they don't expect to get any more." 
+"So I must be dead, huh?"
+IncreaseLL(10)
+Visited()
+choice ""
+{
+	"Go back"
+	LoadChapter(chapter_b)
+}
